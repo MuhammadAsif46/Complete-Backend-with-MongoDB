@@ -1,0 +1,53 @@
+----------------- Backend Developement -------------------
+
+--> 2 major Components:
+
+1. A programming language select One:
+
+    -> JAVA, JAVASCRIPT, PHP, GOLANG, C++ 
+
+2. A Database select One:
+
+    -> Mongo, MySql, Postgres, Sqlite  ----- (ORM - ODM) 
+
+
+--->>> A javascript Base Backend:
+
+1. Data   -> store data types for which is Number, boolen, string, array, object and etc.
+2. File   -> store data types for which is images, pdf , videos and others.
+3. Third party (APIS) -> Backend applications often integrate with third-party APIs to enhance functionality 
+                         or retrieve external data.
+
+
+Add-data:
+Frontend -> API -> Backend -> Database
+
+Get-data:
+Frontend <- API <- Backend <- Database
+
+
+
+--->>> A Js runtime:    Node.js / Deno / Bun
+
+-> main root files here:
+1. package.json                         -> All Packages manage
+2. .env                                 -> security works here
+3. (Readme, git, lint, prettier, etc)   
+
+--->>> Directory Structure here: (Industry Standard folder Structure)
+
+-> "src" files structure here:
+
+1. index file   ----> entry point Db-connection etc. 
+2. APP file     ----> configration works here 
+3. constants file    ----> DB-name & restrictions file etc.
+
+-> "src" Directory structure here:
+
+1. DB                      -> database work here
+2. Models                  -> schema/structure work here
+3. Controllers             -> functinally/functions work here
+4. Routes                  -> routes work here
+5. Middlewares             -> ??
+6. Utils                   -> reusable works here
+7. More (depends)           
