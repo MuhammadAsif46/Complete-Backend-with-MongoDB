@@ -2,9 +2,13 @@ import express from "express";
 
 const app = express();
 
-app.get("/", (req, res) => {
-  res.send("Server is ready");
-});
+// app.use using (middleware)
+// this work is bad practice for production.
+app.use(express.static("dist"))
+
+// app.get("/", (req, res) => {
+//   res.send("Server is ready");
+// });
 
 
 // get a list of jokes:
