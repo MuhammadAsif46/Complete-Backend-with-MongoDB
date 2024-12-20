@@ -41,4 +41,4 @@ This topic explains the concepts of Access Tokens and Refresh Tokens in a clear 
 
 ---
 
-This repository aims to demystify these concepts with simple examples and practical insights to help you design a secure authentication flow.
+This topics aims to demystify these concepts with simple examples and practical insights to help you design a secure authentication flow.
